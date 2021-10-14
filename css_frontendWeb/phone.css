@@ -1,0 +1,101 @@
+/* body{
+ background-color: rgb(231, 168, 84);   
+} */
+
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li {
+    font-size: 0.53rem;
+}
+#navbar::before{
+    width: 100%;
+}
+
+/* Home section */
+#home {
+    height: 632px;
+}
+#home::before {
+    height: 157%;
+    width: 100%;
+}
+
+.h-primary {
+    font-size: 2.45rem;
+    margin-top: 8rem;
+}
+#home p {
+    font-size: 1.0rem;
+}
+/* Services section */
+#services{
+    flex-direction: column;
+}
+.h-services {
+    font-size: 3.0rem;
+    text-align: center;
+    margin-top: 14rem;
+}
+.h-secondary {
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+#services .box p {
+    font-size: 1.0rem;
+    text-align: center;
+}
+#services .box img {
+    /* padding-left: -55px;
+    padding-right: -34px; */
+    margin: 1rem -2rem;
+}
+/* client section */
+#clients{
+    overflow: hidden;
+    display: block;
+    margin-top: 1rem;
+    padding-left: 6rem;
+}
+.h-client {
+    font-size: 3.0rem;
+    text-align: center;
+}
+#clients img {
+    height: 4rem;
+    
+}
+.client-item {
+    flex-direction: column;
+}
+
+/* Contact section */
+.h-contact {
+    padding: 30px;
+    margin-top: 31rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#contact-box label {
+    font-size: 1.0rem;
+}
+
+#contact-box input, #contact-box textarea {
+    width: 95%;
+    padding: 0.4rem;
+    font-size: 0.9rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+    box-shadow: 2rem 2rem 7rem whitesmoke;
+}
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    padding: 0.8rem 0.5rem;
+    font-size: 0.9rem;
+}
+/* utility class */
